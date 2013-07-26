@@ -38,7 +38,7 @@ module.exports = function (grunt) {
             }
         },
         jshint: {
-            files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
+            files: ['Gruntfile.js', 'src/d3-meetup/**/*.js', 'test/**/*.js'],
             options: {
                 jshintrc: '.jshintrc'
             }
