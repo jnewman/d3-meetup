@@ -1,0 +1,44 @@
+{
+    "name": "d3-meetup",
+    "version": "0.0.1",
+    "description": "Code written during a d3 meetup.",
+    "author": "Joshua Newman <joshua.l.newman@gmail.com>",
+    "keywords": [
+        "chart",
+        "graph"
+    ],
+    "main": "src/d3-meetup/main.js",
+    "licenses": [
+        {
+            "type": "BSD3",
+            "url": "https://github.com/jnewman/d3-meetup/blob/master/LICENSE.txt"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:jnewman/d3-meetup.git"
+    },
+    "bugs": "https://github.com/jnewman/d3-meetup/issues",
+    "scripts": {
+        "dist": "grunt dist",
+        "lint": "grunt jshint",
+        "test": "grunt test"
+    },
+    "devDependencies": {
+        "chai": "~1.7",
+        "d3": "~3.2",
+        "grunt": ">=0.4",
+        "grunt-benchmark": "~0.2",
+        "grunt-cli": "~0.1",
+        "grunt-contrib-concat": "~0.3",
+        "grunt-contrib-connect": "~0.3",
+        "grunt-contrib-jshint": "~0.6",
+        "grunt-contrib-uglify": "~0.2",
+        "grunt-mocha-phantomjs": "~0.3",
+        "grunt-mocha-test": "~0.5",
+        "jshint": "~2.1",
+        "lodash": "~1.3",
+        "mocha": "~1.12",
+        "requirejs": "~2.1"
+    }
+}

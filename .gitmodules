@@ -1,0 +1,3 @@
+[submodule "src/contrib/text"]
+	path = src/contrib/text
+	url = https://github.com/requirejs/text.git
